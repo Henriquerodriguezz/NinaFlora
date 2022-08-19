@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+html, body{
+    height: 100%;/*Comando para colocar o rodapé no final da página*/
+ }
+
+
+body{
+    color: #263b29;
+    font-family: "Helvetica Neue", Arial, "Droid Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background: #39573d; /*cor do plano de fundo*/
+    display: flex;/*Comando para colocar o rodapé no final da página*/
+    flex-direction: column;/*Comando para colocar o rodapé no final da página*/
+    background-image: url(../img/nina4.png); /*imagem de fundo do login*/
+ 
+}
+
+.conteudo{
+    flex: 1 0 auto;/*Comando para colocar o rodapé no final da página*/
+}
+
+.content-center{
+    width: 100%;
+    max-width: 400px;
+    margin: 70px auto;
+    padding: 50px;/*Coloca um espaço interno nos elementos*/
+    background-color: rgb(202, 219, 181);
+    border-radius: 30px;
+    
+}
+
+.content-center img{
+    width: 105%;
+    border-radius: 20px;
+}
+
+.conteudo img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+}
+    
+
+.content-center .logo{
+    
+    text-align: center;
+}
+
+.content-center .titulo1{
+    text-align: center;
+    color: #16150e;
+}
+
+.content-center .titulo2{
+    text-align: center;
+    color: #222219;
+}
+
+.content-center form{
+    margin: 10px;
+}
+
+.content-center input,
+.content-center button{
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 5px;
+   /*border: none;*/
+   /*outline: none;*/
+  
+}
+
+.content-center input{
+    margin-top:5px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(8, 20, 13);
+    color: #020402;
+}
+
+.content-center input,
+.content-center button{
+   outline-color:  rgb(108, 204, 82);
+}
+
+.content-center button{
+    font-family: "Helvetica Neue", Arial, "Droid Sans", sans-serif;
+    font-size: 16px;
+    background-color:#19642c;
+    color: rgb(180, 206, 184);
+    border: none;
+    width: 100px; /*Definindo a Lagura do Botao*/    
+}
+
+.content-center .botao{
+    text-align: center;/*Centralizando o Botao*/   
+}
+
+.content-center button:hover{
+    background-color: #e5f5d4;
+    cursor: pointer;
+}
+
+.content-center button:active{
+    background-color: #71cc8f;
+}
+
+.quemsomos{
+    color: white;
+    text-align: center;
+} 
+
+ .footer-content{
+     background-color: rgb(16, 75, 33);
+    text-align: center;
+    color: #ffffff;
+    flex-shrink: 0;/*Comando para colocar o rodapé no final da página*/
+   
+}
+
+.footer-content p{
+    font-family: "Helvetica Neue", Arial, "Droid Sans", sans-serif;
+    font-size: 10px;
+}

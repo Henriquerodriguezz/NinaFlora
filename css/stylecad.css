@@ -1,0 +1,138 @@
+
+*{
+    box-sizing: border-box;/*Propriedade que mantem a margin e o paddind dentro dos limites informados (whidth e Heigth)*/
+    margin: 0px;
+}
+
+html, body{
+   height: 100%;/*Comando para colocar o rodapé no final da página*/
+}
+
+
+/*Formatando o corpo da página*/
+body{
+    color: #050a06;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #274e18;
+    display: flex;/*Comando para colocar o rodapé no final da página*/
+    flex-direction: column;/*Comando para colocar o rodapé no final da página*/
+    background-image: url(../img/nina4.png);
+}
+
+
+.cabecalho{
+    width: 100%;
+    height: 85px;
+    background-color: rgb(54, 110, 54);
+}
+
+/*Colocando uma DIV ao lado da outra no cabeçalho*/
+#cabecalho{
+    width: 100%;
+}
+
+#logo{
+    position: relative;
+    width: 10%;
+    float: left;
+}
+
+#titulo1{
+    position: relative;
+    width: 90%;
+    float: left;
+}
+
+/*Formatando o tamanho da logo no cabeçalho*/
+.cabecalho img{
+    width: 80%;
+}
+
+/*Formatando o Titulo 1 no cabeçalho*/
+.cabecalho h2{
+  padding-top: 25px; 
+  color: #ffffff; 
+}
+
+.conteudo{
+    flex: 1 0 auto;/*Comando para colocar o rodapé no final da página*/
+}
+
+/*Formatando o container principal(Tamanho, Margens, Espaços, Cor, Borda)*/
+.container{
+    width: 100%;
+    max-width: 500px;/*Largura máxima do container*/
+    margin: 50px auto;/*Colocar o container centralizado*/
+    padding: 20px;/*Colocar um espaço interno entre os elementos*/
+    background-color: rgb(255, 254, 254);
+    border-radius: 5px;
+}
+
+.container .titulo2{
+    text-align: center;
+    color: #0c0c0c;
+}
+
+/*Formatando as margens do formulário*/
+.container form{
+    margin: 20px;
+}
+
+.container input,
+.container select,
+.container button{
+  width: 100%; 
+  padding: 10px 5px;
+  border-radius: 5px;
+  outline-color: rgb(24, 23, 23); 
+}
+
+.container input,
+.container select{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(44, 38, 38);
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+}
+
+label{
+    color: red;
+}
+
+.container button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: #2d8f14;
+    color: rgb(255, 255, 255);
+    border: none; /*Tirando a borda do botão*/
+    margin-top: 10px;
+    width: 100px;/*Definindo a largura do Botão*/
+}
+
+.container .botao{
+    text-align: center;/*Centralizando o Botão*/
+}
+
+.container button:hover{
+    background-color: #bfc1c0;
+    cursor: pointer;/*Transformando o cursor em link*/
+}
+
+.container button:active{
+    background-color: rgb(159, 165, 159);
+}
+
+.rodape{
+    background-color: rgb(29, 85, 27);
+    width: 100%;
+    height: 60px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 60px;/*Alinhamento vertical*/
+    flex-shrink: 0;/*Comando para colocar o rodapé no final da página*/
+}

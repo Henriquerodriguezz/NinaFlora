@@ -1,0 +1,112 @@
+
+*{
+    box-sizing: border-box;/*Propriedade que mantem a margin e o paddind dentro dos limites informados (whidth e Heigth)*/
+    margin: 0px;
+}
+
+html, body{
+   height: 100%;/*Comando para colocar o rodapé no final da página*/
+}
+
+
+/*Formatando o corpo da página*/
+body{
+    color: #9cb497;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #204620;
+    display: flex;/*Comando para colocar o rodapé no final da página*/
+    flex-direction: column;/*Comando para colocar o rodapé no final da página*/
+    background-image: url(../img/nina4.png);
+}
+
+.cabecalho{
+    width: 100%;
+    height: 85px;
+    background-color: rgb(29, 83, 13);
+}
+
+/*Colocando uma DIV ao lado da outra no cabeçalho*/
+#cabecalho{
+    width: 100%;
+}
+
+#logo{
+    position: relative;
+    width: 10%;
+    float: left;
+}
+
+#titulo1{
+    position: relative;
+    width: 90%;
+    float: left;
+}
+
+/*Formatando o tamanho da logo no cabeçalho*/
+.cabecalho img{
+    width: 80%;
+}
+
+/*Formatando o Titulo 1 no cabeçalho*/
+.cabecalho h2{
+  padding-top: 25px; 
+  color: #ffffff; 
+}
+
+.conteudo{
+    flex: 1 0 auto;/*Comando para colocar o rodapé no final da página*/
+}
+
+/*Formatando o container principal(Tamanho, Margens, Espaços, Cor, Borda)*/
+.container{
+    width: 300%;
+    max-width: 900px;/*Largura máxima do container*/
+    margin: 90px auto;/*Colocar o container centralizado*/
+    padding: 100px;/*Colocar um espaço interno entre os elementos*/
+    background-color: rgb(219, 243, 188);
+    border-radius: 30px;
+}
+
+.container .titulo2{
+    text-align: center;
+    font-size: 25pt;
+    color: #151715;
+}
+
+.paragrafo{
+    text-align: justify;
+    font-size: 18pt;
+    color: #0e0f0e;
+    margin-bottom: 18px;
+}
+
+.navegacao{
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+
+a {
+    text-decoration: none;
+    color:rgb(2583, 258, 258);
+}
+
+.navegacao :hover{
+  color: rgb(122, 223, 41); 
+}
+
+
+.rodape{
+    background-color: rgb(235, 235, 235);
+    width: 200%;
+    height: 700px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #fdfdfd;
+    text-align: center;
+    line-height: 60px;/*Alinhamento vertical*/
+    flex-shrink: 0;/*Comando para colocar o rodapé no final da página*/
+}
